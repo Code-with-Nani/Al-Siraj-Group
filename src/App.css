@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: gotham_l;
+  src: url("./assests/Gotham-Light.9fc514ca.otf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: gotham_m;
+  src: url("./assests/Gotham-Medium.026843f9.otf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: gotham-b;
+  src: url("./assests/Gotham-Bold.095c652d.otf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gotham_l {
+  font-family: gotham_l;
 }
 
-.App-link {
-  color: #61dafb;
+.gotham_m {
+  font-family: gotham_m;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gotham_b {
+  font-family: gotham_b;
 }
